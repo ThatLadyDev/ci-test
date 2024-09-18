@@ -9,10 +9,6 @@ jobs:
         steps:
           - name: Checkout Code
             uses: actions/checkout@v3
-
-    remove-ds-store:
-        runs-on: ubuntu-latest
-        steps:
           - name: Remove .DS_Store File
-            run: pwd
+            run: ./checks.sh
 
