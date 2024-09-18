@@ -1,2 +1,2 @@
 #!/bin/bash
-rm  .DS_Store
+rm  test.log
